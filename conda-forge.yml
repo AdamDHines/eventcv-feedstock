@@ -1,4 +1,7 @@
 conda_build_tool: rattler-build
+provider:
+  osx_64: false
+  osx_arm64: azure
 github:
   branch_name: main
   tooling_branch_name: main
