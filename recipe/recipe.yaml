@@ -26,7 +26,7 @@ requirements:
     - cargo-bundle-licenses
     - cmake
     - make
-    - pkg-config
+    - pkgconf
     - if: build_platform != target_platform
       then:
         - python
